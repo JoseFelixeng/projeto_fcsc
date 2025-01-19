@@ -1,2 +1,6 @@
-# projeto_fcsc
-O repositorio será usado para armazenar os códigos de teste do projeto, o mesmo será usando o ESP32.
+# Projeto Fundamentos de Circuitos e Sistemas Controlados
+
+## Sistema de autenticação de placas veiculares usando IOT
+
+Descrição: Este trabalho descreve o desenvolvimento de um sistema automatizado de autenticação de veículos, utilizando métodos de detecção de objetos implementados em dispositivos embarcados. O projeto foi realizado por meio da construção de uma maquete, na qual sensores de presença detectam os veículos e uma câmera conectada ao módulo ESP32 realiza a leitura da placa veicular. Através de uma conexão Wi-Fi, as imagens capturadas são enviadas para um notebook, onde são comparadas com um banco de dados de placas cadastradas. Após a validação da placa, o sistema envia um sinal para um Arduino, que controla um servo motor responsável pela liberação da cancela, permitindo sua elevação. Além disso, o sistema detecta a passagem do veículo pela cancela, fechando-a automaticamente após a travessia, evitando que múltiplos veículos ultrapassem a cancela simultaneamente. A maquete construída permitiu testar o processo de reconhecimento de placas e o controle da cancela, com os resultados do processamento das imagens e a resposta da cancela atendendo às expectativas, comprovando a viabilidade e eficiência do sistema proposto.
+
